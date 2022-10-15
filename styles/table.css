@@ -1,6 +1,13 @@
 table{
     border-collapse: collapse;
     font-size: 30px ;
+    font-style: italic;
+    background-image: url(../imagenes/logo.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    
 }
 
 th,td{
@@ -14,6 +21,8 @@ tr>th{
 
 tbody{
     background-color:white ;
+    font-style: italic;
+    text-shadow: 5px 3px 3px rgb(121, 198, 250);
 }
 
 tbody>tr>td:hover{
